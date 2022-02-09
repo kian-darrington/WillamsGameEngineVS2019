@@ -82,23 +82,49 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\MyGame.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.cpp" />
     <ClCompile Include="Engine\AnimatedSprite.cpp" />
     <ClCompile Include="Engine\Game.cpp" />
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
-    <ClCompile Include="GameScene.cpp" />
-    <ClCompile Include="MyGame.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.h" />
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.h" />
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.h" />
     <ClInclude Include="Engine\AnimatedSprite.h" />
     <ClInclude Include="Engine\Game.h" />
     <ClInclude Include="Engine\GameEngine.h" />
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
-    <ClInclude Include="GameScene.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\README.md" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\background.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion-spritesheet.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion01.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion02.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion03.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion04.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion05.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion06.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion07.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion08.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion09.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\laser.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\meteor.png" />
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\boom.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\Courneuf-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

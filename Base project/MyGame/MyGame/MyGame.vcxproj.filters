@@ -13,8 +13,10 @@
     <ClCompile Include="Engine\Scene.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="MyGame.cpp" />
-    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.cpp" />
+    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\MyGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -32,18 +34,74 @@
     <ClInclude Include="Engine\Scene.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.h" />
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.h" />
+    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
       <UniqueIdentifier>{12d3def4-141e-4612-818a-39da16cf0063}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources">
-      <UniqueIdentifier>{97d329b3-5b8c-40b4-8b65-6fbf428de7e5}</UniqueIdentifier>
+      <UniqueIdentifier>{08eb0b53-7148-4210-a6f0-b331a65d053a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\README.md">
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\background.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion01.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion02.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion03.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion04.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion05.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion06.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion07.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion08.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion09.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\explosion-spritesheet.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\laser.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\meteor.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\ship.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\boom.wav">
+      <Filter>Resources</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\Courneuf-Regular.ttf">
+      <Filter>Resources</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Resources\README.md">
       <Filter>Resources</Filter>
     </None>
   </ItemGroup>
