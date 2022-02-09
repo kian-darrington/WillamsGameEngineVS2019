@@ -82,26 +82,23 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.cpp" />
-    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.cpp" />
-    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\MyGame.cpp" />
-    <ClCompile Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.cpp" />
     <ClCompile Include="Engine\AnimatedSprite.cpp" />
     <ClCompile Include="Engine\Game.cpp" />
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Meteor.cpp" />
     <ClCompile Include="MeteorSpawner.cpp" />
+    <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\GameScene.h" />
-    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Laser.h" />
-    <ClInclude Include="..\..\..\..\WilliamsGameEngineVS2019\Base project\MyGame\MyGame\Ship.h" />
     <ClInclude Include="Engine\AnimatedSprite.h" />
     <ClInclude Include="Engine\Game.h" />
     <ClInclude Include="Engine\GameEngine.h" />
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Ship.h" />
     <ClInclude Include="MeteorSpawner.h" />
     <ClInclude Include="Meteor.h" />
   </ItemGroup>
